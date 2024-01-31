@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 01 - Audio Book</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <div class="container-app">
+        <img src="./src/images/dom-casmurro.jpeg" alt="Dom Casmurro capa">
+
+        <div id="info-book">
+            <p id="chapter">Capitulo 1</p>
+            <p id="author-name">Machado de Assis</p>
+        </div>
+
+        <div class="music-container">
+            <audio id="audio-capitulo" src="./books/dom-casmurro/1.mp3"></audio>
+        </div>
+
+        <div id="container-button">
+            <button id="backward" class="fa fa-backward"></button>
+            <button id="play-pause" class="fa fa-play fa-pause"></button>
+            <button id="forward" class="fa fa-forward"></button>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
